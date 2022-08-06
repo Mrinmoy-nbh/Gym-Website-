@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Ballo+Bhai&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("https://cdn.pixabay.com/photo/2018/04/04/16/44/kettlebell-3290296_1280.jpg") ;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .left {
+      position: absolute;
+      display: inline-block;
+      height: 500x;
+      
+
+      left: 60px;
+      top: 22px;
+    }
+    .left img {
+    
+    width: 60px;
+    filter: invert(100%);
+    }
+    .left div {
+      line-height: 19px;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .mid {
+      display: inline-block;
+      display: block;
+      width: 45%;
+      margin: 20px auto;
+     
+    }
+    .right {
+      position: absolute;
+      width: 45;
+      right: 33px;
+      top: 20px;
+      display: inline-block;
+      
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      font-weight: bold;
+      padding: 33px;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: aqua;
+    }
+    .btn {
+      margin: 0px 9px;
+      color: white;
+      padding: 3px 4px;
+      background-color: black;
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(60, 56, 56);
+    }
+    .container {
+      
+      margin: 66px 8px;
+      padding: 43px 0px;
+      width: 27%;
+      border-radius: 30px;
+    }
+    .form-group input{
+    text-align: center;
+    display: block;
+    width: 354px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 10px;
+    font-size: 20px;
+    }
+    .container h1{
+        color: blue;
+        text-align: center;
+    border: 2px solid rgb(14, 243, 235);
+    background-color: bisque;
+    border-radius: 20px;
+    
+    width: 500px;
+    
+    }
+    .container button{
+        display: block;
+        width: 84%;
+        margin: 34px auto;
+
+    }
+    
+  </style>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img
+          src="img/dumbbell-sponsored-native-company-native-desc-6.png"
+          alt=""
+        />
+        <div>NBH FITNESS</div>
+      </div>
+      <!-- Mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">FITNESS CALCULATOR</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <!-- Right box for buttons -->
+      <div class="right">
+        <button class="btn">Contact Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Delhi now</h1>
+        <form action="gym.java">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Mobile Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
